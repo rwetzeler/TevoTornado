@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="Tevo Tornado" version="2018-08-27 17:53:42" app="S3D-Software 4.0.1">
+<profile name="Tevo Tornado" version="2018-08-28 18:41:08" app="S3D-Software 4.0.1">
   <baseProfile>Default</baseProfile>
   <printMaterial>PLA (Hatchbox)</printMaterial>
   <printQuality>Medium</printQuality>
@@ -9,7 +9,7 @@
     <diameter>0.4</diameter>
     <autoWidth>1</autoWidth>
     <width>0.48</width>
-    <extrusionMultiplier>1</extrusionMultiplier>
+    <extrusionMultiplier>1.03</extrusionMultiplier>
     <useRetract>1</useRetract>
     <retractionDistance>6</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
@@ -22,9 +22,9 @@
   </extruder>
   <primaryExtruder>0</primaryExtruder>
   <layerHeight>0.2</layerHeight>
-  <topSolidLayers>3</topSolidLayers>
-  <bottomSolidLayers>3</bottomSolidLayers>
-  <perimeterOutlines>6</perimeterOutlines>
+  <topSolidLayers>4</topSolidLayers>
+  <bottomSolidLayers>4</bottomSolidLayers>
+  <perimeterOutlines>4</perimeterOutlines>
   <printPerimetersInsideOut>1</printPerimetersInsideOut>
   <startPointOption>2</startPointOption>
   <startPointOriginX>0</startPointOriginX>
@@ -105,7 +105,7 @@
   <fanSpeed>
     <setpoint layer="1" speed="0"/>
     <setpoint layer="2" speed="25"/>
-    <setpoint layer="3" speed="90"/>
+    <setpoint layer="3" speed="100"/>
   </fanSpeed>
   <blipFanToFullPower>1</blipFanToFullPower>
   <adjustSpeedForCooling>1</adjustSpeedForCooling>
@@ -156,11 +156,11 @@
   <celebration>0</celebration>
   <celebrationSong>Random Song</celebrationSong>
   <postProcessing></postProcessing>
-  <defaultSpeed>9000</defaultSpeed>
+  <defaultSpeed>4500</defaultSpeed>
   <outlineUnderspeed>0.8</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
-  <rapidXYspeed>9000</rapidXYspeed>
+  <rapidXYspeed>3900</rapidXYspeed>
   <rapidZspeed>1200</rapidZspeed>
   <minBridgingArea>50</minBridgingArea>
   <bridgingExtraInflation>0</bridgingExtraInflation>
@@ -169,7 +169,7 @@
   <useFixedBridgingAngle>0</useFixedBridgingAngle>
   <fixedBridgingAngle>0</fixedBridgingAngle>
   <applyBridgingToPerimeters>0</applyBridgingToPerimeters>
-  <filamentDiameters>1.73|1.73|1.73|1.73|1.73|1.73</filamentDiameters>
+  <filamentDiameters>1.75|1.73|1.73|1.73|1.73|1.73</filamentDiameters>
   <filamentPricesPerKg>18|18|18|18|18|18</filamentPricesPerKg>
   <filamentDensities>1.25|1.25|1.25|1.25|1.25|1.25</filamentDensities>
   <useMinPrintHeight>0</useMinPrintHeight>
@@ -180,7 +180,7 @@
   <diaphragmLayerInterval>20</diaphragmLayerInterval>
   <robustSlicing>1</robustSlicing>
   <mergeAllIntoSolid>0</mergeAllIntoSolid>
-  <onlyRetractWhenCrossingOutline>1</onlyRetractWhenCrossingOutline>
+  <onlyRetractWhenCrossingOutline>0</onlyRetractWhenCrossingOutline>
   <retractBetweenLayers>0</retractBetweenLayers>
   <useRetractionMinTravel>0</useRetractionMinTravel>
   <retractionMinTravel>3</retractionMinTravel>
@@ -251,8 +251,8 @@
   </autoConfigureQuality>
   <autoConfigureQuality name="Medium">
     <layerHeight>0.2</layerHeight>
-    <topSolidLayers>3</topSolidLayers>
-    <bottomSolidLayers>3</bottomSolidLayers>
+    <topSolidLayers>4</topSolidLayers>
+    <bottomSolidLayers>4</bottomSolidLayers>
     <skirtLayers>1</skirtLayers>
     <infillPercentage>50</infillPercentage>
     <supportInfillPercentage>30</supportInfillPercentage>
@@ -262,7 +262,7 @@
     <topSolidLayers>6</topSolidLayers>
     <bottomSolidLayers>6</bottomSolidLayers>
     <skirtLayers>3</skirtLayers>
-    <infillPercentage>100</infillPercentage>
+    <infillPercentage>80</infillPercentage>
     <supportInfillPercentage>40</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureMaterial name="ASA">
@@ -285,11 +285,11 @@
       <setpoint layer="1" temperature="205"/>
     </temperatureController>
     <globalBedTemperature>60</globalBedTemperature>
-    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
+    <globalExtrusionMultiplier>1.03</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
       <setpoint layer="2" speed="25"/>
-      <setpoint layer="3" speed="90"/>
+      <setpoint layer="3" speed="100"/>
     </fanSpeed>
   </autoConfigureMaterial>
 </profile>
