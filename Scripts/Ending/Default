@@ -1,0 +1,7 @@
+G28 X0 ; Home X Axis
+G1 X285 ; Present Build Plate
+M106 S0 ; Turn off Cooling Fan
+M104 S0 ; Turn Off Extruder Heat
+M140 S0 ; Turn of Bed Heat
+M84 ; Disable Steppers
+M117 Printing done!
