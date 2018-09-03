@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="Tevo Tornado" version="2018-08-29 07:09:04" app="S3D-Software 4.0.1">
+<profile name="Tevo Tornado" version="2018-08-30 16:23:48" app="S3D-Software 4.0.1">
   <baseProfile>Default</baseProfile>
   <printMaterial>PLA (Hatchbox)</printMaterial>
   <printQuality>Medium</printQuality>
@@ -9,7 +9,7 @@
     <diameter>0.4</diameter>
     <autoWidth>1</autoWidth>
     <width>0.48</width>
-    <extrusionMultiplier>1</extrusionMultiplier>
+    <extrusionMultiplier>0.98</extrusionMultiplier>
     <useRetract>1</useRetract>
     <retractionDistance>6</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
@@ -31,7 +31,7 @@
   <startPointOriginY>0</startPointOriginY>
   <sequentialIslands>0</sequentialIslands>
   <spiralVaseMode>0</spiralVaseMode>
-  <firstLayerHeightPercentage>80</firstLayerHeightPercentage>
+  <firstLayerHeightPercentage>90</firstLayerHeightPercentage>
   <firstLayerWidthPercentage>100</firstLayerWidthPercentage>
   <firstLayerUnderspeed>0.4</firstLayerUnderspeed>
   <useRaft>0</useRaft>
@@ -147,7 +147,7 @@
   <baudRateOverride>250000</baudRateOverride>
   <overridePrinterModels>0</overridePrinterModels>
   <printerModelsOverride></printerModelsOverride>
-  <startingGcode>G28 ; home all axes,G29 ; level bed BL Touch,G1 Z5 F3000 ; lift,G1 X40 Y5 F1500 ; avoid binder clips,G92 E0 ; reset extrusion distance,G1 Z0 F3000; set to base,G1 X120 E10 F600 ; prime nozzle,G1 X150 F5000 ; quick wipe,M205 X10 ; Lower Jerk to 10,M204 P500 T1000 ; Lower Acceleration</startingGcode>
+  <startingGcode>G28 ; home all axes,G29 ; level bed BL Touch,M301 P23.39 I2.16 D63.23,G1 Z5 F3000 ; lift,G1 X40 Y5 F1500 ; avoid binder clips,G92 E0 ; reset extrusion distance,G1 Z0 F3000; set to base,G1 X120 E10 F600 ; prime nozzle,G1 X150 F5000 ; quick wipe,M205 X10 ; Lower Jerk to 10,M204 P500 T1000 ; Lower Acceleration</startingGcode>
   <layerChangeGcode></layerChangeGcode>
   <retractionGcode></retractionGcode>
   <toolChangeGcode></toolChangeGcode>
@@ -156,7 +156,7 @@
   <celebration>0</celebration>
   <celebrationSong>Random Song</celebrationSong>
   <postProcessing></postProcessing>
-  <defaultSpeed>4500</defaultSpeed>
+  <defaultSpeed>3000</defaultSpeed>
   <outlineUnderspeed>0.8</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
@@ -285,7 +285,7 @@
       <setpoint layer="1" temperature="205"/>
     </temperatureController>
     <globalBedTemperature>60</globalBedTemperature>
-    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
+    <globalExtrusionMultiplier>0.98</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
       <setpoint layer="2" speed="25"/>
