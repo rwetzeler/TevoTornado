@@ -31,10 +31,10 @@ Based on the chart provided from Bondtech
 
 Run the [gcode](QR1.75.gcode) (or the following steps)
 
-1. M92 E-476.5 ; Change e-steps for new Extruder
+1. M92 E476.5 ; Change e-steps for new Extruder
 1. M500 ; Save config
 
-**IMPORTANT** Check your drive direction - Use M92 to change axis steps to negative value
+**IMPORTANT** Check your drive direction - Use M92 to change axis steps to negative value if needed
 
 ## Option 2: Marlin Firmware Settings (Preferred Method)
 
